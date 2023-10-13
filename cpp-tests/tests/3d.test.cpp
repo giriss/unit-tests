@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "cuboid.h"
+#include "../src/3d.h"
 
 TEST(CuboidTest, Volume) {
     Rectangle base(4, 5);

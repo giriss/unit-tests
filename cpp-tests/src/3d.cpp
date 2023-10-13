@@ -1,4 +1,4 @@
-#include "cuboid.h"
+#include "3d.h"
 
 Cuboid::Cuboid(Rectangle base, double height) : base(base), height(height) {}
 

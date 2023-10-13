@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "utils.h"
+#include "../src/utils.h"
 
 // Test the volume method of the Cuboid class
 TEST(UtilsTest, PowerOf) {

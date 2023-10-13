@@ -1,5 +1,5 @@
 #pragma once
-#include "rectangle.h"
+#include "2d.h"
 
 struct Cuboid {
     Rectangle base;

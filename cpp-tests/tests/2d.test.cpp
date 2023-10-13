@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "rectangle.h"
+#include "../src/2d.h"
 
 Rectangle rect(4, 5);
 

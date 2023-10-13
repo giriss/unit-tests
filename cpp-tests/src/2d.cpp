@@ -1,4 +1,4 @@
-#include "rectangle.h"
+#include "2d.h"
 
 // Rectangle
 Rectangle::Rectangle(double length, double width) : length(length), width(width) {}
