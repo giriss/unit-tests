@@ -2,15 +2,15 @@
 #include "2d.h"
 
 struct Cuboid {
-    Rectangle base;
-    double height;
+  Rectangle base;
+  double height;
 
-    Cuboid(Rectangle base, double height);
-    
-    double volume() const;
-    double surfaceArea() const;
+  Cuboid(Rectangle base, double height);
+
+  double volume() const;
+  double surfaceArea() const;
 };
 
 struct Cube : Cuboid {
-    Cube(double side_length);
+  Cube(double side_length);
 };

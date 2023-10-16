@@ -1,7 +1,6 @@
 #pragma once
 
-struct Rectangle
-{
+struct Rectangle {
   double length;
   double width;
 
@@ -16,6 +15,7 @@ struct Square : Rectangle {
   Square(double side_length);
 
   Square operator*(double factor) const;
-private:
+
+ private:
   Square(Rectangle rect);
 };

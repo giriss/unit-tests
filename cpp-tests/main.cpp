@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "src/2d.h"
 #include "src/3d.h"
 #include "src/utils.h"
@@ -12,15 +13,19 @@ void printCuboidHeaders() {
 }
 
 void printRectangle(const Rectangle &rect) {
-  std::cout << rect.length << "\t" << rect.width << "\t" << rect.area() << "\t" << rect.circumference() << std::endl;
+  std::cout << rect.length << "\t" << rect.width << "\t" << rect.area() << "\t"
+            << rect.circumference() << std::endl;
 }
 
 void printCuboid(const Cuboid &cuboid) {
-  std::cout << cuboid.base.length << "\t" << cuboid.base.width << "\t" << cuboid.height << "\t" << cuboid.volume() << "\t" << cuboid.surfaceArea() << std::endl;
+  std::cout << cuboid.base.length << "\t" << cuboid.base.width << "\t"
+            << cuboid.height << "\t" << cuboid.volume() << "\t"
+            << cuboid.surfaceArea() << std::endl;
 }
 
 void printPower(double base, double exponent) {
-  std::cout << "power(" << base << ", " << exponent << ") = " << power(base, exponent) << std::endl;
+  std::cout << "power(" << base << ", " << exponent
+            << ") = " << power(base, exponent) << std::endl;
 }
 
 int main() {

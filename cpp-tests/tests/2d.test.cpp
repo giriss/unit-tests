@@ -1,11 +1,10 @@
-#include <gtest/gtest.h>
 #include "../src/2d.h"
+
+#include <gtest/gtest.h>
 
 Rectangle rect(4, 5);
 
-TEST(RectangleTest, Area) {
-  EXPECT_DOUBLE_EQ(rect.area(), 20);
-}
+TEST(RectangleTest, Area) { EXPECT_DOUBLE_EQ(rect.area(), 20); }
 
 TEST(RectangleTest, Circumference) {
   EXPECT_DOUBLE_EQ(rect.circumference(), 18);
@@ -19,13 +18,9 @@ TEST(RectangleTest, Multiply) {
 
 Square sq(5);
 
-TEST(SquareTest, Area) {
-  EXPECT_DOUBLE_EQ(sq.area(), 25);
-}
+TEST(SquareTest, Area) { EXPECT_DOUBLE_EQ(sq.area(), 25); }
 
-TEST(SquareTest, Circumference) {
-  EXPECT_DOUBLE_EQ(sq.circumference(), 20);
-}
+TEST(SquareTest, Circumference) { EXPECT_DOUBLE_EQ(sq.circumference(), 20); }
 
 TEST(SquareTest, Multiply) {
   Square newSq = sq * 2;
